@@ -1,0 +1,144 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: rgb(11, 158, 158);
+}
+.logo img{
+    width: 195px;
+}
+.menu{
+
+}
+.menu ul{
+    text-align: center;
+    list-style: none;
+    margin-bottom: 0;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.menu ul li a {
+	display: block;
+	padding: 0 20px;
+	line-height: 64px;
+	text-decoration: none;
+    color: white;
+    border-right: 1px solid #ddd;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    background-color: teal;
+
+}
+/* Banner */
+.banner{
+    background-image: url(./sydney-opera-house.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+}
+.firat-h{
+    display: inline-block;
+    background-color: rgba(22, 231, 231, 0.616);
+    padding-top: 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+
+}
+.second-h{
+  background-color: rgba(255, 99, 71, 0.596);
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: white;
+
+
+}
+.about-us{
+    background-color: thistle;
+}
+
+.lorem{
+    width: 800px;
+    margin: auto;
+}
+/* service */
+.service{
+    background-color: wheat;
+}
+.card span{
+    width: 50px;
+    height: 50px;
+    background-color: steelblue;
+    color: white;
+    line-height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px 5px 20px 5px;
+    font-size: 30px;
+}
+.card h2{
+    color: tomato;
+}
+.product ul{ 
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+.prodact-right ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+.prodact-right ul li{
+    border: 1px solid rgb(221, 18, 18);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.prodact-right h2{
+    text-align: center;
+}
+.footer{
+    background-color: darkslategray;
+    
+}
+.footer-menu{
+    line-height: 55px;
+
+}
+.footer-menu ul{
+    list-style: none;
+    text-align: right;
+    margin-bottom: 0;
+}
+.footer-menu ul li{
+    display: inline-block;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+.footer-caption{
+    line-height: 70px;
+    color: white;
+}
+.footer-caption p{
+    margin-bottom: 0;
+}
+.main-menu{
+    width: 1480px;
+    margin: auto;
+}
